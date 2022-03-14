@@ -30,7 +30,8 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="icon" href="/favIcon.svg" />
+          <title>Portfólio - Diogo Silva</title>
+          <link rel="icon" href="/favIcon.ico" />
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
             rel="stylesheet"

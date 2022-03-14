@@ -22,11 +22,11 @@ export const projects = [
   {
     id: 2,
     image: "/images/3.svg",
-    title: "Portfolio",
+    title: "Portfólio",
     tags: ["NextJS", "Typescript", "Styled Component"],
-    description: "Portfolio sobre minha carreira e projetos desenvolvidos",
-    repository: "https://google.com",
-    deploy: "https://google.com",
+    description: "Portfólio responsivo para organizar meus projetos ",
+    repository: "https://github.com/diogomfc/Portfolio",
+    deploy: "https://portfolio-diogomfc.vercel.app/",
   },
   {
     id: 3,
