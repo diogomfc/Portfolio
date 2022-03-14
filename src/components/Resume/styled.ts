@@ -18,60 +18,56 @@ const animate = keyframes`
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  padding: 15px;
+  padding: 1.5rem;
 
   background: linear-gradient(180deg, #202024 0%, #202024 0.01%, rgba(0, 0, 0, 0) 47.73%, #000000 98.78%);
-  border-radius: 6px;
+  border-radius:.6rem;
    
    .sobre{
      h1{
       animation: ${animate} .5s;
        color: #35C559;
-       font-size: 30px;
+       font-size: 3rem;
      }
      p{
       animation: ${animate} .8s;
-      padding-top: 5px;
-      color: #fff;
-      font-size: 24px;
+      //padding-top: .5rem;
+      color: #C4C4CC;
+      font-size: 2.4rem;
+      font-weight: 100;
      }
    }
 
    .formacao{
      display:grid;
-     padding-bottom: 5px;
+     padding-bottom: .5rem;
     h1{
       animation: ${animate} .5s;
        color: #35C559;
-       font-size: 30px;
-       padding-top: 10px;
+       font-size: 3rem;
+       padding-top: .5rem
      }
     strong{ 
       animation: ${animate} .8s;
-      color: #fff; 
-      font-size: 24px;
-      padding-top: 5px;
+      color: #C4C4CC; 
+      font-size: 2.4rem;
+      //padding-top: .5rem;
     }
 
     p{
       animation: ${animate} .8s;
       color: #C4C4CC;
-      font-size: 24px;
-     }
-     span{
-      animation: ${animate} .8s;
-      padding-bottom: 5px;
-      font-size: 24px;
-      color: #C4C4CC;
+      font-size: 2.4rem;
+      font-weight: 100;
      }
    }
 
    .habilidades{
       >h1{
        animation: ${animate} .5s;
-       padding-bottom: 15px;
+       padding-bottom: 1.5rem;
        color: #35C559;
-       font-size: 30px;
+       font-size: 3rem;
      
      }
      .habilidades-skills{
@@ -81,7 +77,7 @@ export const Container = styled.div`
        justify-content: space-between;
        align-items: center;
        
-       gap: 25px
+       gap: 2.5rem;
      }
 
      @media (max-width: 600px) {
@@ -90,7 +86,7 @@ export const Container = styled.div`
        grid-template-columns: 1fr;
        grid-template-rows: 1fr;
        justify-content: space-between;
-       gap: 10px;
+       gap: 1rem;
       }
      }
    }

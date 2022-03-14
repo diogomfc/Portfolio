@@ -27,7 +27,7 @@ export const Container = styled.div<IProps>`
   background: ${props => props.color};
  //background: linear-gradient(90deg, #2492DC 0%, rgba(80, 80, 89, 0) 100%);
  border-radius: 6px 0px 0px 6px;
- padding: 10px;
+ padding: 1rem;
  
  .card-skill-image{
   display:flex;
@@ -38,16 +38,17 @@ export const Container = styled.div<IProps>`
  .card-skills-title{
   display:grid;
   justify-content:flex-start;
-  padding-left: 3px;
+  padding-left: .3rem;
  
    
    h1{
-    color: #fff;
-    font-size: 18px;
+    color: #C4C4CC;
+    font-size: 1.8rem;
    }
    p{ 
-    color: #fff;
-    font-size: 14px;
+    color: #C4C4CC;
+    font-weight: 100;
+    font-size: 1.4rem;
    }
  }
  

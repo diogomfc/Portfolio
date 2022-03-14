@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 
 import GlobalStyle from "../styles/globals";
-import { Container, Content, LefContent, RightContent } from "../styles/styled";
+import { Container } from "../styles/styled";
 
 import dark from "../themes/dark";
 import light from "../themes/light";
@@ -27,12 +27,6 @@ export default function Home() {
         <Container>
           {/* <Header onChangeTheme={onChangeTheme} /> */}
           <Layout />
-          {/* <Content>
-            <LefContent>
-              <CardProfile />
-            </LefContent>
-            <RightContent />
-          </Content> */}
         </Container>
       </ThemeProvider>
     </>

@@ -11,7 +11,7 @@ import IconCss from "../../assets/IconCss.svg";
 import IconHtml from "../../assets/iconHtml.svg";
 import IconGit from "../../assets/IconGIt.svg";
 
-function Main() {
+function Resume() {
   return (
     <Container>
       <div className="sobre">
@@ -25,11 +25,9 @@ function Main() {
       <div className="formacao">
         <h1>Formação</h1>
         <strong>Análise e desenvolvimento de sistema</strong>
-        <p>UNINOVE - Universidade Nove de Julho</p>
-        <span>Cursando</span>
-        <strong>Front-end React js</strong>
-        <p>Labenu</p>
-        <span>Concluído - 2021</span>
+        <p>UNINOVE - Universidade Nove de Julho - Cursando </p>
+        <strong>Front-end em React js</strong>
+        <p>Labenu - Concluído - 2021</p>
       </div>
       <div className="habilidades">
         <h1>Minhas habilidades</h1>
@@ -94,4 +92,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Resume;

@@ -1,7 +1,25 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+ padding-top: 2rem; 
+ .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+    color: #C4C4CC;
+    font-size: 1rem;
+    font-weight:100;
+   }
+  }
+  @media (max-width: 600px) {
+    padding-top: 0;
+  } 
+`
+export const Content = styled.div`
   max-width: 1120px;
+  max-height: 770px;
   margin: 0 auto;
   
   display: grid;
@@ -9,37 +27,34 @@ export const Container = styled.div`
   grid-template-rows: 1fr;
 
   gap: 5px;
-
-  //width: calc(100% - 10px);
-  //height: calc(100% - 10px);
-  //height: 100%;
-
   padding: 10px;
- 
   border: none;
 
-  .footer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+ @media (max-width: 600px) {
+    max-height: none;
 
-    font-size: 9px;
-  }
-
-
-  @media (max-width: 600px) {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
- }   
-
+ }  
  
+ @media (max-width: 420px) {
+  max-height: none;
+  grid-template-rows: 890px;
+  gap: 20px;
+ } 
+
+ @media (max-width: 380px) {
+  max-height: none;
+  grid-template-rows: 740px;
+  gap: 20px;
+ }
 `
 
 export const LefContent = styled.div`
 
 `
 export const RightContent = styled.div`
-  
+   
 `
 
