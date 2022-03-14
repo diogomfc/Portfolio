@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Container } from "./styled";
 
 import IconGit from "../../assets/icon-git.svg";
-import IconLinkdin from "../../assets/icon-linkdin.svg";
+import IconLinkedin from "../../assets/icon-linkedin.svg";
 import IconFacebook from "../../assets/Icon-Facebook.svg";
 import IconInsta from "../../assets/Icon-Insta.svg";
 import IconTwitter from "../../assets/Icon-Twitter.svg";
@@ -35,7 +35,7 @@ function CardProfile({ onClickButton, children }: TButton) {
       </div>
       <div className="card-profile-sociais">
         <a href="https://github.com/diogomfc">
-          <Image src={IconLinkdin} alt="Icon Git" />
+          <Image src={IconLinkedin} alt="Icon Git" />
         </a>
         <a href="https://www.facebook.com/">
           <Image src={IconFacebook} alt="Icon Git" />
