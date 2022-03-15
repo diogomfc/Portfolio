@@ -48,4 +48,14 @@ export const projects = [
     repository: "https://github.com/diogomfc/ignite-challends-WatchMe",
     deploy: "https://github.com/diogomfc/ignite-challends-WatchMe",
   },
+  {
+    id: 5,
+    image: "/images/CapaRocketShoes.svg",
+    title: "RocketShoes",
+    tags: ["ReactJS", "styled-components", "Axios", "Typescript", "TypeScript"],
+    description:
+      "Principal objetivo do projeto é criar um hook de carrinho de compras. com duas páginas, um componente e um hook para implementar as funcionalidades pedidas nesse desafio, Adicionar um novo produto ao carrinho; Remover um produto do carrinho; Alterar a quantidade de um produto no carrinho; Cálculo dos preços sub-total e total do carrinho; Validação de estoque; Exibição de mensagens de erro; Entre outros.",
+    repository: "https://github.com/diogomfc/RocketShoes",
+    deploy: "https://github.com/diogomfc/RocketShoes",
+  },
 ];
