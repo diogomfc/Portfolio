@@ -34,7 +34,7 @@ function CardProfile({ onClickButton, children }: TButton) {
         </a>
       </div>
       <div className="card-profile-sociais">
-        <a href="https://github.com/diogomfc">
+        <a href="https://www.linkedin.com/in/diogo-pgs-silva/">
           <Image src={IconLinkedin} alt="Icon Git" />
         </a>
         <a href="https://www.facebook.com/">
