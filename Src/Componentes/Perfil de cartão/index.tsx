@@ -10,7 +10,7 @@ import IconTwitter from "../../assets/Icon-Twitter.svg";
 import BackgroundAnimation from "../BackGroundAnimation/BackgroundAnimation";
 
 const urlDownloadCurriculum =
-  "https://drive.google.com/file/d/1XFF2VJ69GEZI4zUKkxQRrjDROJARCe7R/view?usp=sharing";
+  "https://drive.google.com/file/d/1Vf78PieSGKUd9UcuKaUZBVNFAiy7_Jqp/view?usp=share_link";
 
 type TButton = {
   onClickButton: () => void;
