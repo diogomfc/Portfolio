@@ -1,15 +1,13 @@
 import {
   Container,
   ContentCardsProjects,
-  ContentDetailProjects,
 } from "./styled";
 
 import CardProject from "../CardProject";
 import { projects } from "../../utils/constants";
 
-import { useContext, useEffect, useState } from "react";
+import {useEffect, useState } from "react";
 import CardProjectFull from "../CardProjectFull";
-import { GlobalContext, ProfileContext } from "../../GlobalContext";
 
 interface ICardProjectProps {
   id: number;
