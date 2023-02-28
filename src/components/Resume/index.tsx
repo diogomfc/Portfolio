@@ -25,7 +25,7 @@ function Resume() {
       <div className="formacao">
         <h1>Formação</h1>
         <strong>Análise e desenvolvimento de sistema</strong>
-        <p>UNINOVE - Universidade Nove de Julho - Cursando </p>
+        <p>UNINOVE - Universidade Nove de Julho</p>
         <strong>Front-end em React js</strong>
         <p>Labenu - Concluído - 2021</p>
       </div>

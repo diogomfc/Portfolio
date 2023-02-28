@@ -1,7 +1,21 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
- padding-top: 2rem; 
+@media (max-width: 600px) {
+    padding-top: 0;
+  }
+
+@media (min-width: 600px) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  border: none;
+}
+
  .footer{
     display: flex;
     align-items: center;
@@ -13,9 +27,7 @@ export const Container = styled.div`
     font-weight:100;
    }
   }
-  @media (max-width: 600px) {
-    padding-top: 0;
-  } 
+ 
 `
 export const Content = styled.div`
   max-width: 1120px;
